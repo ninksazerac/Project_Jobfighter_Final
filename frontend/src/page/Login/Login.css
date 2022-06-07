@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500&display=swap');
+@media screen and (min-width: 800px){
+
+
+.green-form{
+    max-width: 600;
+
+}   
+}
+/* min-width=กว้างกว่า.. */
+/* @media screen and (max-width: 768px){
+    .image{
+        display: none;
+    }
+    .head-login{
+        position: absolute;
+        right: -70px;
+        text-align: center;
+    }
+    .green-form{
+        position: absolute;
+        left: 0px;
+    }
+    .form1{
+        position: absolute;
+        left: -355px;
+    }
+} */

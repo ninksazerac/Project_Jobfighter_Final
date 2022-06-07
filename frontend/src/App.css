@@ -1,0 +1,12 @@
+:root{
+  --green: #69F0AE;
+  --blue: #28058B;
+  --red: #FF0A27;
+  --greenCard: #00815A;
+}
+
+.App{
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}

@@ -1,0 +1,37 @@
+/*ปุ่มลิ้งหน้า*/
+  .disabledCursor { 
+    cursor: default;
+  }
+  .paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .paginationBttns a {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #24AB82;
+    color: #24AB82;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #24AB82;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #24AB82;
+  }
+  
+  .paginationDisabled a {
+    color: #E2E2E2;
+    background-color: #E2E2E2;
+  }

@@ -1,0 +1,111 @@
+.home{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem; /*gap ขนาดช่องว่างระหว่างปุ่ม*/
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+/* พบกับงานที่ใช่ งานที่ชอบ */
+.i-name>:nth-child(1)
+{
+    color: var(--black);
+    /* font-weight: bold; */
+    font-size: 3rem;
+}
+/* Job Fighter */
+.i-name>:nth-child(2)
+{
+    color :#24AB82;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+    /* margin-right: 5rem; */
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1
+}
+/* pic work */
+.i-right>:nth-child(1){
+    transform: scale(1.2);
+    right: 22%;
+}
+/* button */
+.i-button{
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 11px 26px 11px 26px;
+    background: #24AB82;
+    box-shadow: 0px 20px 24px 3px rgba(rgb(15, 230, 151), green, blue, alpha);
+    /* ปรับขนาดปุ่ม */
+    width: 10rem;
+    height: 3.5rem;
+}
+
+.i-button:hover{
+    background: white;
+    cursor: pointer;
+    border: 1px solid #24AB82;
+    color :#24AB82;
+}
+
+/* blur bg */
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #d1f7e4 ; 
+    z-index: -9;
+    top: 18%;
+    left: 56%;
+    filter: blur(72px);
+}
+
+/* Home2 */
+.home2{
+    padding: 0 3rem 0 5rem;
+    display: flex;
+    height: 77vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+/* Job fighter */
+.awesome > :nth-child(1){
+    color: var(--black);
+    font-size: 3rem; 
+}
+.awesome > :nth-child(2){
+    color: #24AB82;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+ 

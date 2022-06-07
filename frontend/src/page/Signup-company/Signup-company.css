@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500&display=swap');
+.green{
+    font-family: "Noto Sans Thai2";
+    font-size:22px;
+    /* position: absolute;
+    left: 855px;
+    top: 125px; */
+}
+
+.button-signup{
+    font-family: "Noto Sans Thai1";
+    font-size:28px;
+}
+
+/* นักศึกษา */
+/* .buttonuser1{
+    width: 200px;
+    height: 80px;
+    position:absolute;
+    right: 568px;
+    top: 44px;
+    background-color: #69F0AE;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    line-height: 1.25;
+    min-height: 3rem;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    opacity: 0.5;
+}
+.buttonuser1:hover,:focus{
+    background-color: #69F0AE;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 6px 12px;
+    opacity: 1;
+}
+.buttonuser1:hover{
+    transform: translateY(-1px);
+}
+.buttonuser1:active{
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 10px;
+    transform: translateY(0);
+}
+
+.user{
+    font-family: "Noto Sans Thai1";
+    font-size: 28px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+.icon-user{
+    position: absolute;
+    left: 30px;
+    top: 24px;
+    color: #005005;
+} */
+
+
+/* บริษัท */
+/* .buttoncompany1{
+    width: 200px;
+    height: 80px;
+    position:absolute;
+    right: 350px;
+    top: 44px;
+    background-color: #69F0AE;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    line-height: 1.25;
+    min-height: 3rem;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    
+}
+.buttoncompany1:hover,:focus{
+    background-color: #69F0AE;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 6px 12px;
+    
+}
+.buttoncompany1:hover{
+    transform: translateY(-1px);
+}
+.buttoncompany1:active{
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 10px;
+    transform: translateY(0);
+}
+.company{
+    font-family: "Noto Sans Thai1";
+    font-size: 28px;
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.icon-company{
+    position: absolute;
+    left: 45px;
+    top: 24px;
+    color: #005005;
+} */
+
+
+.image{
+    width: 600px;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+
+
+
+
